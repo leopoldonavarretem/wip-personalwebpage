@@ -1,6 +1,9 @@
 //Imports
 import * as PATHS from "../utils/paths";
 
+//import pages
+import Aboutme from "../pages/Aboutme"
+
 
 function routes(props) {
   return [
@@ -16,7 +19,7 @@ function routes(props) {
 
     {
       path: PATHS.ABOUTME,
-      element: <>About me</>,
+      element: <Aboutme/>
     },
 
     {
