@@ -3,6 +3,7 @@ import * as PATHS from "../utils/paths";
 
 //import pages
 import Aboutme from "../pages/Aboutme"
+import Portfolio from "../pages/Portfolio"
 
 
 function routes(props) {
@@ -14,7 +15,7 @@ function routes(props) {
 
     {
       path: PATHS.PORTFOLIO,
-      element: <>Portfolio</>,
+      element: <Portfolio/>
     },
 
     {
