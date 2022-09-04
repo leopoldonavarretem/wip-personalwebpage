@@ -4,13 +4,14 @@ import * as PATHS from "../utils/paths";
 //import pages
 import Aboutme from "../pages/Aboutme"
 import Portfolio from "../pages/Portfolio"
+import Home from "../pages/Home"
 
 
 function routes(props) {
   return [
     {
       path: PATHS.HOME,
-      element: <>Home</>,
+      element: <Home/>,
     },
 
     {
