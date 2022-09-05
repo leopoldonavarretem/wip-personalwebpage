@@ -20,7 +20,7 @@ const projectInformation = [
 
   {
     name: "Grassroots",
-    imageUrl: "https://picsum,photos/300",
+    imageUrl: "https://picsum.photos/300",
     description:
       "Personal project. A social media platform to organize around social movements in government, bussiness, economy or local issues.",
   },
@@ -28,8 +28,15 @@ const projectInformation = [
 
 function Portfolio(props) {
   return (
-    <Grid container>
-      <ProjectCard props={projectInformation[0]}/>
+    <Grid
+      container
+      direction="row"
+      justifyContent="space-evenly"
+      alignItems="center"
+    >
+      <ProjectCard information={projectInformation[0]} />
+      <ProjectCard information={projectInformation[1]} />
+      <ProjectCard information={projectInformation[2]} />
     </Grid>
   );
 }
