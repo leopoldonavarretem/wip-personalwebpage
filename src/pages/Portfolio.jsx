@@ -1,6 +1,6 @@
 //Imports components
 import { Grid } from "@mui/material";
-import ProjectCard from "../components/ProjectCard";
+import ProjectCard from "../components/ProjectCard/ProjectCard";
 
 const projectInformation = [
   {

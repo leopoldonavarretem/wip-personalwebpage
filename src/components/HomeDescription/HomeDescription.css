@@ -1,0 +1,19 @@
+.homeDescription {
+  width: 80%;
+  margin-top: 30%;
+  margin-left: 10%;
+  color: white;
+}
+
+.welcome {
+  color: #6719ff;
+}
+
+.name {
+  color: white;
+  margin-top: 5px;
+}
+
+.description {
+  color: #71767a;
+}
