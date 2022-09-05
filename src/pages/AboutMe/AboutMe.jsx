@@ -5,11 +5,11 @@ import { Container } from "@mui/material";
 import { Grid } from "@mui/material";
 import { Typography } from "@mui/material";
 
-const theme={
-  color: "white"
-}
+const theme = {
+  color: "white",
+};
 
-function Aboutme(props) {
+function AboutMe(props) {
   return (
     <Container maxWidth="xl" sx={theme}>
       <Typography variant="h1" align="center">
@@ -42,6 +42,6 @@ function Aboutme(props) {
   );
 }
 
-export default Aboutme;
+export default AboutMe;
 
 //TODO: Add hobbies, interests, Images etc...

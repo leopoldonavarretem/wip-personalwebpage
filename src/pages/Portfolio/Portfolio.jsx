@@ -1,6 +1,7 @@
 //Imports components
 import { Grid } from "@mui/material";
-import ProjectCard from "../components/ProjectCard/ProjectCard";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import "./Portfolio.css";
 
 const projectInformation = [
   {
@@ -28,7 +29,7 @@ const projectInformation = [
 function Portfolio(props) {
   return (
     <Grid container>
-      <ProjectCard />
+      <ProjectCard props={projectInformation[0]}/>
     </Grid>
   );
 }

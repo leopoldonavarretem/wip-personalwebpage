@@ -2,8 +2,8 @@
 import * as PATHS from "../utils/paths";
 
 //import pages
-import Aboutme from "../pages/Aboutme"
-import Portfolio from "../pages/Portfolio"
+import Aboutme from "../pages/AboutMe/AboutMe"
+import Portfolio from "../pages/Portfolio/Portfolio"
 import Home from "../pages/Home/Home"
 
 
