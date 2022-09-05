@@ -4,22 +4,7 @@ import { Link } from "react-router-dom";
 //Import componenets
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
-
-//Styling
-const navigationLinkStyling = {
-  textDecoration: "none",
-  color: "white",
-};
-
-const titleLinkStyling = {
-  textDecoration: "none",
-  color: "white",
-};
-
-const navBarStyle = {
-  backgroundColor: "black",
-  height: "10vh",
-};
+import "./Navbar.css"
 
 const navigationBarDirection = {
   alignItems: "center",
@@ -29,9 +14,9 @@ const navigationBarDirection = {
 
 function Navbar(props) {
   return (
-    <Grid container sx={navBarStyle}>
+    <Grid container className="navBar">
       <Grid container item xl={4} {...navigationBarDirection}>
-        <Link to="/" style={titleLinkStyling}>
+        <Link to="/" className="titleLink">
           <Typography>Leopoldo Navarrete</Typography>
         </Link>
       </Grid>
@@ -39,18 +24,18 @@ function Navbar(props) {
       <Grid container item xl={3}></Grid>
 
       <Grid container item xl={4} {...navigationBarDirection}>
-        <Link to="/portfolio" style={navigationLinkStyling}>
+        <Link to="/portfolio" className="navigationLink">
           <Typography>Portfolio</Typography>
         </Link>
 
-        <Link to="/aboutme" style={navigationLinkStyling}>
+        <Link to="/aboutme" className="navigationLink">
           <Typography>About Me</Typography>
         </Link>
 
-        <Link to="/contact" style={navigationLinkStyling}>
+        <Link to="/contact" className="navigationLink">
           <Typography>Contact</Typography>
         </Link>
-        <Typography style={navigationLinkStyling}>Resume</Typography>
+        <Typography className="navigationLink">Resume</Typography>
       </Grid>
     </Grid>
   );
