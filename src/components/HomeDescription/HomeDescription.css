@@ -1,8 +1,10 @@
 .homeDescription {
-  width: 80%;
-  margin-top: 30%;
-  margin-left: 10%;
+  width: 60%;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
   color: white;
+  text-align: left;
 }
 
 .welcome {

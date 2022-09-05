@@ -4,7 +4,7 @@ import * as PATHS from "../utils/paths";
 //import pages
 import Aboutme from "../pages/Aboutme"
 import Portfolio from "../pages/Portfolio"
-import Home from "../pages/Home"
+import Home from "../pages/Home/Home"
 
 
 function routes(props) {
