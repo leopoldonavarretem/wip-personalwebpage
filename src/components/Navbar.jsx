@@ -18,29 +18,25 @@ const titleLinkStyling = {
 
 const navBarStyle = {
   backgroundColor: "black",
-  height: 50,
+  height: "10vh",
 };
 
-const navigationBarDirection={
-  alignItems:"center",
-  direction:"row",
-  justifyContent:"space-around"
-
-}
+const navigationBarDirection = {
+  alignItems: "center",
+  direction: "row",
+  justifyContent: "space-around",
+};
 
 function Navbar(props) {
   return (
-    <Grid
-      container
-      sx={navBarStyle}
-    >
+    <Grid container sx={navBarStyle}>
       <Grid container item xl={4} {...navigationBarDirection}>
         <Link to="/" style={titleLinkStyling}>
           <Typography>Leopoldo Navarrete</Typography>
         </Link>
       </Grid>
 
-      <Grid container item xl={4}></Grid>
+      <Grid container item xl={3}></Grid>
 
       <Grid container item xl={4} {...navigationBarDirection}>
         <Link to="/portfolio" style={navigationLinkStyling}>
@@ -54,7 +50,6 @@ function Navbar(props) {
         <Link to="/contact" style={navigationLinkStyling}>
           <Typography>Contact</Typography>
         </Link>
-
         <Typography style={navigationLinkStyling}>Resume</Typography>
       </Grid>
     </Grid>
