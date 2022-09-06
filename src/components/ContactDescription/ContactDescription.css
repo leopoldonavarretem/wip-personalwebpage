@@ -1,11 +1,36 @@
-.contactDescription{
-    width: 80%;
+.ContactBlock {
+  margin: 15%;
 }
 
+.Contact {
+  font-size: 3vh;
+  margin: 0;
+  color: #6719ff;
+}
 
+.ContactTitle {
+  font-size: 5vh;
+  margin: 1, 0;
+  color: white;
+}
 
-.icon{
-    margin: 0;
-    height: 100%;
-    width: auto;
+.ContactDescription {
+  color: #71767a;
+  font-size: 4vh;
+  margin: 0, 0 , 1, 0;
+}
+
+.iconsDiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  margin: 0;
+  height: 100%;
+  width: auto;
+}
+
+.icon:hover{
+  height: 110%;
 }

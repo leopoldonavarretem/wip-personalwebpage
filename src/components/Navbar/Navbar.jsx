@@ -35,7 +35,10 @@ function Navbar(props) {
         <Link to="/contact" className="navigationLink">
           <Typography>Contact</Typography>
         </Link>
+        
+        <a href="https://drive.google.com/file/d/1NIzkVj79deXfcKEz-0k8cjGPGrv1pA8P/view?usp=sharing" target="_blank" rel="noopener noreferrer">
         <Typography className="navigationLink">Resume</Typography>
+        </a>
       </Grid>
     </Grid>
   );

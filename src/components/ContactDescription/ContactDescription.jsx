@@ -7,23 +7,23 @@ import "./ContactDescription.css";
 
 function ContactDescription(props) {
   return (
-    <Grid item xl={6} xs={12} md={12}>
-      <div className="contactDescription">
-        <h3>Contact</h3>
-        <h2>Let's collaborate together!</h2>
-        <p>
+    <Grid item xl={6}>
+      <div className="ContactBlock">
+        <h3 className="Contact">Contact</h3>
+        <h2 className="ContactTitle">Let's collaborate together!</h2>
+        <p className="ContactDescription">
           Reach me in whichever way you prefer and let me know about how we can
           work together.
         </p>
         <div className="iconsDiv">
-          <a href="https://github.com/leopoldonavarretem">
+          <a href="https://github.com/leopoldonavarretem" target="_blank" rel="noopener noreferrer">
             <img src={githubIcon} alt="Github Icon" className="icon" />
           </a>
-          <a href="mailto:Leopoldonavarretem@outlook.com">
-            <img src={emailIcon} alt="Email Icon" className="icon" />
-          </a>
-          <a href="https://www.linkedin.com/in/leopoldonavarretem/">
+          <a href="https://www.linkedin.com/in/leopoldonavarretem/" target="_blank" rel="noopener noreferrer">
             <img src={linkedIn} alt="LinkedIn Icon" className="icon" />
+          </a>
+          <a href="mailto:Leopoldonavarretem@outlook.com" target="_blank" rel="noopener noreferrer">
+            <img src={emailIcon} alt="Email Icon" className="icon" />
           </a>
         </div>
       </div>

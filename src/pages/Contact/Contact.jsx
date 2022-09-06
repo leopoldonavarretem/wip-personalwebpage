@@ -7,7 +7,7 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 
 function Contact(Props) {
   return (
-    <Grid Container direction="row">
+    <Grid container direction="row">
       <ContactDescription />
       <ContactForm />
     </Grid>
