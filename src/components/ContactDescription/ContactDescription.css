@@ -1,5 +1,11 @@
+.contactDescription{
+    width: 80%;
+}
+
+
+
 .icon{
     margin: 0;
-    height: 5%;
+    height: 100%;
     width: auto;
 }
