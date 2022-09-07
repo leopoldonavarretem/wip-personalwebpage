@@ -5,7 +5,7 @@ import "./HomeDescription.css";
 
 function HomeDescription(props) {
   return (
-    <Grid item xl={7}>
+    <Grid item xl={6}>
       <div className="homeDescription">
         <Typography className="welcome" variant="h1">
           Welcome!
