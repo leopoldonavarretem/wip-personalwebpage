@@ -24,7 +24,7 @@ input {
   border-radius: 10px;
   border-color: white;
   height: 40px;
-  font-size: 3vh;
+  font-size: 2vh;
 }
 label:nth-of-type(1) {
   margin-top: 5%;
@@ -41,10 +41,10 @@ textarea {
   color: white;
   border-radius: 10px;
   border-color: white;
-  font-size: 3vh;
+  font-size: 2vh;
 }
 
-button {
+.ContactSend {
   margin-top: 5%;
   background-color: #1f2731;
   height: 5vh;
@@ -52,4 +52,7 @@ button {
   border-radius: 10%;
   border-color: white;
   color: #dbdcda;
+  text-align: center;
+  text-decoration: none;
+  font-size: 3vh;
 }
