@@ -1,6 +1,6 @@
 .navBar {
-  background-color: #2e363c66;
   height: 8vh;
+  position: fixed;
 }
 
 .titleLink {
