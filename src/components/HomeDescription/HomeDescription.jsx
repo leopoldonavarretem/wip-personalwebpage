@@ -7,17 +7,16 @@ function HomeDescription(props) {
   return (
     <Grid item xl={6}>
       <div className="homeDescription">
-        <Typography className="welcome" variant="h1">
-          Welcome!
-        </Typography>
-        <Typography className="name" variant="h6">I'm Leopoldo Navarrete.</Typography>
+        <h1 className="welcome">Welcome!</h1>
 
-        <Typography className="description" variant="body1">
+        <h2 className="name">I'm Leopoldo Navarrete.</h2>
+
+        <p className="description">
           An aspiring tech Project Manager currently looking for work. I
           recently graduated with a double degree in Political Science and
           Economics and certified myself as a Web Developer. However, my true
           passion is planning, developing and shipping products to consumers.
-        </Typography>
+        </p>
       </div>
     </Grid>
   );

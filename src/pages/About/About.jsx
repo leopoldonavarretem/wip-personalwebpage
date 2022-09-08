@@ -9,7 +9,7 @@ const theme = {
   color: "white",
 };
 
-function AboutMe(props) {
+function About(props) {
   return (
     <Container maxWidth="xl" sx={theme}>
       <Typography variant="h1" align="center">
@@ -42,6 +42,6 @@ function AboutMe(props) {
   );
 }
 
-export default AboutMe;
+export default About;
 
 //TODO: Add hobbies, interests, Images etc...

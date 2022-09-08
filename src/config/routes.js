@@ -2,7 +2,7 @@
 import * as PATHS from "../utils/paths";
 
 //import pages
-import Aboutme from "../pages/AboutMe/AboutMe"
+import About from "../pages/About/About"
 import Portfolio from "../pages/Portfolio/Portfolio"
 import Home from "../pages/Home/Home"
 import Contact from "../pages/Contact/Contact"
@@ -21,8 +21,8 @@ function routes(props) {
     },
 
     {
-      path: PATHS.ABOUTME,
-      element: <Aboutme/>
+      path: PATHS.ABOUT,
+      element: <About/>
     },
 
     {

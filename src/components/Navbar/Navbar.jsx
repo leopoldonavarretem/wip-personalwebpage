@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 //Import componenets
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
-import "./Navbar.css"
+import "./Navbar.css";
 
 const navigationBarDirection = {
   alignItems: "center",
@@ -25,19 +25,24 @@ function Navbar(props) {
 
       <Grid container item xl={4} {...navigationBarDirection}>
         <Link to="/portfolio" className="navigationLink">
-          <Typography>Portfolio</Typography>
+          Portfolio
         </Link>
 
-        <Link to="/aboutme" className="navigationLink">
-          <Typography>About Me</Typography>
+        <Link to="/about" className="navigationLink">
+          About Me
         </Link>
 
         <Link to="/contact" className="navigationLink">
-          <Typography>Contact</Typography>
+          Contact
         </Link>
-        
-        <a href="https://drive.google.com/file/d/1NIzkVj79deXfcKEz-0k8cjGPGrv1pA8P/view?usp=sharing" className="navigationLink" target="_blank" rel="noopener noreferrer">
-        <Typography >Resume</Typography>
+
+        <a
+          href="https://drive.google.com/file/d/1NIzkVj79deXfcKEz-0k8cjGPGrv1pA8P/view?usp=sharing"
+          className="navigationLink"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Resume
         </a>
       </Grid>
     </Grid>
