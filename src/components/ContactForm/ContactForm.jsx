@@ -19,7 +19,7 @@ function ContactForm(props) {
   return (
     <Grid item xl={6} xs={12}>
       <form className="contactForm">
-        <h3 className="Contact">Email</h3>
+        <h3 className="email">Email</h3>
         <label>Subject</label>
         <input
           type="text"
