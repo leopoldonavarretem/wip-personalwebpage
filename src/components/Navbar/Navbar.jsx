@@ -17,7 +17,7 @@ function Navbar(props) {
     <Grid container className="navBar">
       <Grid container item xl={4} {...navigationBarDirection}>
         <Link to="/" className="titleLink">
-          <Typography>Leopoldo Navarrete</Typography>
+          Leopoldo Navarrete
         </Link>
       </Grid>
 
