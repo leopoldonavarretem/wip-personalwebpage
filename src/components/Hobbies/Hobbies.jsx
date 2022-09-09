@@ -2,12 +2,37 @@ import "./Hobbies.css";
 
 import { Grid } from "@mui/material";
 
+import AdbIcon from '@mui/icons-material/Adb';
+
 function Hobbies(props) {
-  return(
-    <Grid item xl={3}>
-      <h4>icon</h4>
-      <h3>Cooking</h3>
-      <p>Description of the Hobby</p>
+  return (
+    <Grid item xl={7}>
+      <Grid container className="hobbiesContainer">
+      
+      <Grid item xl={6} className="hobbiesBox">
+          <AdbIcon className="hobbyIcon" fontSize="large"/>
+          <h3 className="hobbyTitle">Cooking</h3>
+          <p className="hobbyDescription">Description of the Hobbyfasdfasfasfasdfasdfas fasdfasdf fasdfasf</p>
+        </Grid>
+
+        <Grid item xl={6} className="hobbiesBox">
+          <AdbIcon className="hobbyIcon" fontSize="large"/>
+          <h3 className="hobbyTitle">Cooking</h3>
+          <p className="hobbyDescription">Description of the Hobbyfasdfasfasfasdfasdfas fasdfasdf fasdfasf</p>
+        </Grid>
+
+        <Grid item xl={6} className="hobbiesBox">
+          <AdbIcon className="hobbyIcon" fontSize="large"/>
+          <h3 className="hobbyTitle">Cooking</h3>
+          <p className="hobbyDescription">Description of the Hobbyfasdfasfasfasdfasdfas fasdfasdf fasdfasf</p>
+        </Grid>
+
+        <Grid item xl={6} className="hobbiesBox">
+          <AdbIcon className="hobbyIcon" fontSize="large"/>
+          <h3 className="hobbyTitle">Cooking</h3>
+          <p className="hobbyDescription">Description of the Hobbyfasdfasfasfasdfasdfas fasdfasdf fasdfasf</p>
+        </Grid> 
+      </Grid>
     </Grid>
   );
 }
