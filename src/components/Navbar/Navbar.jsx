@@ -29,7 +29,7 @@ function Navbar(props) {
         </Link>
 
         <Link to="/about" className="navigationLink">
-          About Me
+          About
         </Link>
 
         <Link to="/contact" className="navigationLink">

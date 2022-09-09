@@ -11,8 +11,8 @@ const containerStyling = {
 function Home(props) {
   return (
     <Grid container sx={containerStyling}>
-      <Grid item xl={6} xs={12} className="image">
-        <img src={personalPhoto} alt="" />
+      <Grid item xl={6} xs={12}>
+        <img src={personalPhoto} alt="" className="homeImage"/>
       </Grid>
 
       <HomeDescription />

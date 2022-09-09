@@ -9,7 +9,6 @@ function About(props) {
   return (
     <Grid container>
       <AboutDescription />
-      <Hobbies />
     </Grid>
   );
 }

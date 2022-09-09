@@ -1,6 +1,5 @@
 .navBar {
   height: 8vh;
-  position: fixed;
 }
 
 .titleLink {
@@ -10,6 +9,7 @@
 
 .titleLink:hover {
   font-size: 110%;
+  color: #6719ff;  
 }
 
 .navigationLink {
@@ -19,4 +19,6 @@
 
 .navigationLink:hover {
   font-size: 115%;
+  color: #6719ff;
+
 }
