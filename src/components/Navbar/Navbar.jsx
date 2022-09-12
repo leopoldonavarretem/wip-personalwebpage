@@ -2,7 +2,6 @@
 import { Link } from "react-router-dom";
 
 //Import componenets
-import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import "./Navbar.css";
 

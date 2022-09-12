@@ -1,6 +1,5 @@
 //Imports
 import AboutDescription from "../../components/AboutDescription/AboutDescription";
-import Hobbies from "../../components/Hobbies/Hobbies";
 
 //Import components
 import { Grid } from "@mui/material";

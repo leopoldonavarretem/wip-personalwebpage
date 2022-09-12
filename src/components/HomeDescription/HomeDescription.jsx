@@ -1,6 +1,5 @@
 //Imports
 import { Grid } from "@mui/material";
-import { Typography } from "@mui/material";
 import "./HomeDescription.css";
 
 function HomeDescription(props) {
