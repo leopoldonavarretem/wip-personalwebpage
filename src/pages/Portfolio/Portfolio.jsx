@@ -9,6 +9,8 @@ const projectInformation = [
     imageUrl: "https://picsum.photos/300",
     description:
       "Designed, created and coded my personal webpage. I'm always updating it and upgrading it as my coding abilities become better.",
+    tools: "node.js  react",
+    link: "https://www.leopoldonavarretem.com/"
   },
 
   {
@@ -16,6 +18,8 @@ const projectInformation = [
     imageUrl: "https://picsum.photos/300",
     description:
       "A personal project where users can share reviews, opinions on any type of media.",
+    tools: "node.js  react  mongoDb",
+    link: "https://github.com/leopoldonavarretem/wip-sharex-backend"
   },
 
   {
@@ -23,6 +27,8 @@ const projectInformation = [
     imageUrl: "https://picsum.photos/300",
     description:
       "Personal project. A social media platform to organize around social movements in government, bussiness, economy or local issues.",
+    tools: "node.js  react  mongoDb",
+    link: "https://github.com/leopoldonavarretem/wip-grassroots-backend"
   },
 ];
 
@@ -31,8 +37,8 @@ function Portfolio(props) {
     <Grid
       container
       direction="row"
-      justifyContent="space-evenly"
-      alignItems="center"
+      justifyContent="center"
+      alignItems="stretch"
     >
       <ProjectCard information={projectInformation[0]} />
       <ProjectCard information={projectInformation[1]} />

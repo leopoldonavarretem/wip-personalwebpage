@@ -1,4 +1,51 @@
-.card{
-    width: 60%;
-    height: 200px
+.projectDiv {
+    background-color: #1f2731;
+    border-radius: 1%;
+  height: 40vh;
+  padding-top: 5%;
+  margin: 5%;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-decoration: none;
+  width: 80%;
+}
+
+.projectDiv:hover {
+  transform: translateY(-1rem);
+  animation-timing-function: ease;
+}
+
+.projectDiv:hover .projectTitle {
+  color: #6719ff;
+}
+
+.projectImage {
+  width: 10%;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+.projectTitle {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.projectDescription {
+  color: #71767a;
+  text-align: justify;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40%;
+}
+
+.projectTools {
+  color: #71767a8f;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
