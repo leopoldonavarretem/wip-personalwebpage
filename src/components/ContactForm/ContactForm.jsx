@@ -9,14 +9,9 @@ function ContactForm(props) {
       <form
         className="contactForm"
         name="contact"
-        method="post"
-        data-netlify="true"
-        onSubmit="submit"
-        data-netflify-honeypot="bot-field"
+        method="POST"
         netlify
       >
-        <input type="hidden" name="contact-form" value="contact" />
-        <input type="hidden" name="bot-field" />
 
         <label className="contactLabel" htmlFor="fullName">Name</label>
         <input type="text" id="fullName" name="fullName" className="contactInput" />
