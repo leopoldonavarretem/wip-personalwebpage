@@ -11,20 +11,20 @@ function ContactForm(props) {
         method="POST"
         data-netlify="true"
       >
-        <label>Email</label>
-        <input type="email" id="email" name="email" className="input" />
-        <label>Subject</label>
-        <input type="text" id="name" name="name" className="input" />
-        <label>Message</label>
+        <label className="contactLabel">Email</label>
+        <input type="email" id="email" name="email" className="contactInput" />
+        <label className="contactLabel">Subject</label>
+        <input type="text" id="name" name="name" className="contactInput" />
+        <label className="contactLabel">Message</label>
         <textarea
           type="text"
           id="message"
           name="message"
-          className="input"
+          className="contactMessage"
           rows="4"
         />
 
-        <button className="ContactSend" type="submit">
+        <button className="contactSend" type="submit">
           Send
         </button>
       </form>

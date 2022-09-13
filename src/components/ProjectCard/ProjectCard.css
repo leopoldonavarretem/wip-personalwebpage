@@ -1,15 +1,16 @@
 .projectDiv {
   background-color: #1f2731;
   border-radius: 1%;
-  height: 40vh;
+  height: auto;
   padding-top: 5%;
+  padding-bottom: 5%;
   margin: 5%;
-  align-self: center;
   margin-left: auto;
   margin-right: auto;
   display: block;
   text-decoration: none;
   width: 80%;
+  text-align: justify;
 }
 
 .projectDiv:hover {
@@ -18,6 +19,10 @@
 }
 
 .projectDiv:hover .projectTitle {
+  color: #6719ff;
+}
+
+.projectDiv:hover .projectLink {
   color: #6719ff;
 }
 
@@ -34,14 +39,19 @@
   width: 80%;
 }
 
+.projectLink {
+  color: #3a434a;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
 .projectDescription {
   color: #71767a;
-  text-align: justify;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  height: 40%;
-}
+  }
 
 .projectTools {
   color: #71767a8f;

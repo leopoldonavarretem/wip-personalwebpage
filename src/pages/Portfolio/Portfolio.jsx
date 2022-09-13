@@ -6,29 +6,35 @@ import "./Portfolio.css";
 const projectInformation = [
   {
     name: "Personal Webpage",
-    imageUrl: "https://picsum.photos/300",
     description:
       "Designed, created and coded my personal webpage. I'm always updating it and upgrading it as my coding abilities become better.",
     tools: "node.js  react",
-    link: "https://www.leopoldonavarretem.com/"
+    link: "https://www.leopoldonavarretem.com/",
+    frontEndLink: "https://github.com/leopoldonavarretem/wip-personalwebpage",
+    backEndLink: null,
+    webPageLink: "https://leopoldonavarretem.com",
   },
 
   {
     name: "Sharex",
-    imageUrl: "https://picsum.photos/300",
     description:
-      "A personal project where users can share reviews, opinions on any type of media.",
+      "A personal project where users can share reviews, opinions on any type of media. There are many types of pandas in the world.",
     tools: "node.js  react  mongoDb",
-    link: "https://github.com/leopoldonavarretem/wip-sharex-backend"
+    link: "https://github.com/leopoldonavarretem/wip-sharex-backend",
+    frontEndLink: "https://github.com/leopoldonavarretem/wip-sharex-backend",
+    backEndLink: "https://github.com/leopoldonavarretem/wip-sharex-backend",
+    webPageLink: null,
   },
 
   {
     name: "Grassroots",
-    imageUrl: "https://picsum.photos/300",
     description:
-      "Personal project. A social media platform to organize around social movements in government, bussiness, economy or local issues.",
+      "Personal project. A social media platform to organize around social movements in government, bussiness, economy.",
     tools: "node.js  react  mongoDb",
-    link: "https://github.com/leopoldonavarretem/wip-grassroots-backend"
+    link: "https://github.com/leopoldonavarretem/wip-grassroots-backend",
+    frontEndLink: "https://github.com/leopoldonavarretem/wip-grassroots-frontend",
+    backEndLink: "https://github.com/leopoldonavarretem/wip-grassroots-backend",
+    webPageLink: null,
   },
 ];
 

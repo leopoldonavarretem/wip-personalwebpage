@@ -15,12 +15,12 @@
   color: #6719ff;
 }
 
-label {
+.contactLabel {
   color: #dbdcda;
   font-size: 3vh;
 }
 
-input {
+.contactInput {
   width: 100%;
   background-color: #1f2731;
   color: white;
@@ -30,15 +30,15 @@ input {
   font-size: 2vh;
 }
 
-label:nth-of-type(2) {
+.contactLabel:nth-of-type(2) {
   margin-top: 5%;
 }
 
-label:nth-of-type(3) {
+.contactLabel:nth-of-type(3) {
   margin-top: 5%;
 }
 
-textarea {
+.contactMessage {
   height: 100px;
   width: 100%;
   background-color: #1f2731;
@@ -48,7 +48,7 @@ textarea {
   font-size: 2vh;
 }
 
-.ContactSend {
+.contactSend {
   margin-top: 5%;
   background-color: #1f2731;
   height: 5vh;
