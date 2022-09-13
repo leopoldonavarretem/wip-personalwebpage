@@ -3,15 +3,24 @@ import { Grid } from "@mui/material";
 import "./ContactForm.css";
 
 function ContactForm(props) {
-
-  function handleSubmit(event){
-    event.preventDefault();
-  }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    let myForm = document.getElementById("contactForm");
+    let formData = new FormData(myForm);
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    })
+      .then(() => console.log("Form successfully submitted"))
+      .catch((error) => alert(error));
+  };
 
   return (
     <Grid item xl={6} xs={12}>
       <form
         className="contactForm"
+        id="contactForm"
         name="contact"
         method="POST"
         data-netlify="true"
