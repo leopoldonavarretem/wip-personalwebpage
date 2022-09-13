@@ -13,6 +13,7 @@ function ContactForm(props) {
         data-netlify="true"
         onSubmit="submit"
         data-netflify-honeypot="bot-field"
+        netlify
       >
         <input type="hidden" name="contact-form" value="contact" />
         <input type="hidden" name="bot-field" />
