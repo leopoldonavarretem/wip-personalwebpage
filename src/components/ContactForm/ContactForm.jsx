@@ -12,6 +12,7 @@ function ContactForm(props) {
         method="POST"
         netlify
       >
+      <input type="hidden" name="contact-form" value="contact" />
 
         <label className="contactLabel" htmlFor="fullName">Name</label>
         <input type="text" id="fullName" name="fullName" className="contactInput" />
