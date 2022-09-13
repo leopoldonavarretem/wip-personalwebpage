@@ -10,7 +10,7 @@
       content="A personal webpage dedicated to show Leopoldo Navarrete's project portfolio."
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/personalLogo.png" />
-  
+
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
     <title>Leopoldo Navarrete</title>
@@ -22,15 +22,26 @@
 
   <body>
     <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-      <input type="text" name="fullName" />
-      <input type="email" name="email" />
-      <input type="text" name="subject">
-      <textarea name="message"></textarea>
+      <input
+        type="text"
+        id="fullName"
+        name="fullName"
+        className="contactInput"
+      />
+
+      <input type="email" id="email" name="email" className="contactInput" />
+      <input type="text" id="subject" name="subject" className="contactInput" />
+      <textarea
+        type="text"
+        id="message"
+        name="message"
+        className="contactMessage"
+        rows="4"
+      ></textarea>
     </form>
-    
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>
-  
 </html>
 `

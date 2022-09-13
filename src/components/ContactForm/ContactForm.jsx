@@ -6,7 +6,7 @@ function ContactForm(props) {
   return (
     <Grid item xl={6} xs={12}>
       <form className="contactForm" name="contact" method="post">
-        <input type="hidden" name="contact-form" value="contact" />
+        <input type="hidden" name="form-name" value="contact" />
 
         <label className="contactLabel" htmlFor="fullName">
           Name
@@ -42,7 +42,7 @@ function ContactForm(props) {
           name="message"
           className="contactMessage"
           rows="4"
-        />
+        ></textarea>
 
         <button className="contactSend" type="submit">
           Send
