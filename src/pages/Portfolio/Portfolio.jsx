@@ -18,7 +18,7 @@ const projectInformation = [
   {
     name: "Sharex",
     description:
-      "A personal project where users can share reviews, opinions on any type of media. There are many types of pandas in the world.",
+      "A social media platform where users can share reviews and opinions on any type of popular entertainment.",
     tools: "node.js  react  mongoDb",
     link: "https://github.com/leopoldonavarretem/wip-sharex-backend",
     frontEndLink: "https://github.com/leopoldonavarretem/wip-sharex-backend",
@@ -29,7 +29,7 @@ const projectInformation = [
   {
     name: "Grassroots",
     description:
-      "Personal project. A social media platform to organize around social movements in government, bussiness, economy.",
+      "A platform to organize around social movements in government, bussiness, economy or local issues.",
     tools: "node.js  react  mongoDb",
     link: "https://github.com/leopoldonavarretem/wip-grassroots-backend",
     frontEndLink: "https://github.com/leopoldonavarretem/wip-grassroots-frontend",
