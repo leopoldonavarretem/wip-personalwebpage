@@ -3,6 +3,11 @@ import { Grid } from "@mui/material";
 import "./ContactForm.css";
 
 function ContactForm(props) {
+
+  function handleSubmit(event){
+    event.preventDefault();
+  }
+
   return (
     <Grid item xl={6} xs={12}>
       <form
@@ -24,7 +29,7 @@ function ContactForm(props) {
           rows="4"
         />
 
-        <button className="contactSend" type="submit">
+        <button className="contactSend" type="submit" onClick={handleSubmit}>
           Send
         </button>
       </form>
