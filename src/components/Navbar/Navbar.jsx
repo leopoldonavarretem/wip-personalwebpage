@@ -36,7 +36,7 @@ function Navbar(props) {
         </Link>
 
         <a
-          href="https://drive.google.com/file/d/1NIzkVj79deXfcKEz-0k8cjGPGrv1pA8P/view?usp=sharing"
+          href="https://drive.google.com/file/d/1hkEVLZ3u5wDI2rJSs7z16xMJoiNQX6CT/view?usp=sharing"
           className="navigationLink"
           target="_blank"
           rel="noopener noreferrer"
