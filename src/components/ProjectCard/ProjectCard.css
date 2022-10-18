@@ -1,12 +1,9 @@
 .projectDiv {
   background-color: #1f2731;
-  border-radius: 1%;
   height: auto;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  margin: 5%;
-  margin-left: auto;
-  margin-right: auto;
+  border-radius: 1rem;
+  padding: 2rem 0;
+  margin: 5% auto;
   display: block;
   text-decoration: none;
   width: 80%;
@@ -22,21 +19,21 @@
   color: #6719ff;
 }
 
-.projectDiv:hover .projectLink {
-  color: #6719ff;
-}
-
-.projectImage {
-  width: 10%;
-  margin-left: 10%;
-  margin-right: auto;
+.projectIcon {
+  width: 2rem;
+  margin: 0 10%;
 }
 
 .projectTitle {
   color: white;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 1rem auto;
   width: 80%;
+}
+
+.projectDescription {
+  color: #71767a;
+  width: 80%;
+  margin: 1rem auto;
 }
 
 .projectLink {
@@ -46,16 +43,12 @@
   margin-right: auto;
 }
 
-.projectDescription {
-  color: #71767a;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  }
+.projectLink:hover{
+  color: #6719ff;
+}
 
 .projectTools {
   color: #71767a8f;
   width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 1rem auto;
 }

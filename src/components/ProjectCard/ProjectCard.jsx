@@ -54,7 +54,7 @@ function ProjectCard(props) {
   return (
     <Grid item xl={3}>
       <div className="projectDiv">
-        <img src={codingIcon} alt="" className="projectImage" />
+        <img src={codingIcon} alt="" className="projectIcon" />
         <h3 className="projectTitle">{information.name}</h3>
         <p className="projectDescription">{information.description}</p>
 
