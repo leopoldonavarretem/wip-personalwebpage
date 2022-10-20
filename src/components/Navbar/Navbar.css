@@ -1,24 +1,23 @@
-.navBar {
+#nav {
   height: 8vh;
 }
 
-.titleLink {
+.nav__title {
   text-decoration: none;
   color: white;
 }
 
-.titleLink:hover {
+.nav__title:hover {
   font-size: 110%;
-  color: #6719ff;  
+  color: #6719ff;
 }
 
-.navigationLink {
+.nav__link {
   text-decoration: none;
   color: white;
 }
 
-.navigationLink:hover {
+.nav__link:hover {
   font-size: 115%;
   color: #6719ff;
-
 }
